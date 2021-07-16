@@ -7,7 +7,7 @@ const expresshandlebars = require('express-handlebars');
 //import backend routes
 const routes = require("./routes");
 //setup sequelize connection
-const sequelize = require('./config/connection');
+const sequelize = require('./config/connect');
 //initialize sequelize store
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 //create express app
